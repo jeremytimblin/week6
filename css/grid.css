@@ -1,0 +1,14 @@
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px
+}
+.Grid-item{
+    background-color: lightgray;
+    padding: 16px;
+    text-align: center;
+    height: calc(33vw - 32px);
+}
+.Grid-item:nth-child(3){
+    order:-1;
+}

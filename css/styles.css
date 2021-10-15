@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(156, 224, 53);
+    padding: 8px 0;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color:honeydew;
+}
+
+/*special styling selector for lists in navigation*/
+nav li:not(:last-child) {
+    margin-right: 24px;
+}
